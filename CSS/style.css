@@ -63,6 +63,20 @@ p {
     color: #333;
     background-color: #f7c08a;
 }
+.clr {clear: both;}
+.l-heading {
+    font-size: 40px;
+}
+.salutation {
+    display: block;
+    text-align: right;
+}
+/* Padding */
+.py-1 {padding: 10px 0px;}
+.py-2 {padding: 20px 0px;}
+.py-3 {padding: 30px 0px;}
+
+
 /* Navbar styling */
 #navbar {
     background-color: #333;
@@ -143,6 +157,73 @@ p {
     padding: 50px;
     text-align: center;
 }
+.box i {
+    margin-bottom: 10px;
+}
+
+/* About Info */
+#info-about .info-right {
+    float: right;
+    width: 50%;
+    min-height: 100%;
+}
+#info-about .info-right img {
+    display: block;
+    margin: auto;
+    width: 70%;
+    border-radius: 50%;
+}
+#info-about .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%
+}
+/* Testimonials */
+#testimonials {
+    height: 600px;
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+#testimonials h2 {
+    color: #fff;
+    text-align: center;
+    padding-bottom: 40px;
+}
+#testimonials .testimonial {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 5px;
+    opacity: 0.91;
+}
+#testimonials .testimonial img {
+    margin-right: 20px;
+    border-radius: 50%;
+    float: left;
+    width: 100px;
+    height: 100px;
+}
+
+/* Contact page styling */
+.form-group {
+    margin-bottom: 20px;
+}
+.form-body label {
+    display: block;
+    margin-bottom: 5px;
+}
+.form-body input, .form-body textarea {
+    border-radius: 5px;
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+.form-body input:focus, .form-body textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+.form-body textarea {
+    height: 200px;
+}
 
 /* Main footer */
 #main-footer {
@@ -151,3 +232,4 @@ p {
     color: #f4f4f4;
     padding: 20px;
 }
+ 
